@@ -1,0 +1,188 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero,
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero-content{
+    justify-content: space-between;
+}
+
+.about-us,
+.menu,
+.reservation,
+.catering,
+.buffet{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-us-content,
+.about-us-img,
+.menu-content,
+.menu-grid,
+.reservation-content,
+.reservation-imgs,
+.catering-imgs,
+.buffet-content
+{
+    flex-basis: 50%;
+}
+
+.recipes,
+.blend-bg,
+.testimonials,
+.qt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-grid,
+.reservation-imgs,
+.catering,
+.catering-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-img,
+.reservation-img,
+.catering-img,
+.catering-content,
+.team-card,
+.contact-img,
+.contact-form{
+    flex-basis: 49.5%;
+}
+
+.blog-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.blog-post{
+    flex-basis: 33.33%;
+}
+
+.blog-img-meta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-meta{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-widget{
+    flex-basis: 25%;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header{
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.menu-img-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menuPg-image{
+  flex-basis: 32.3%;
+}
+
+.blog-fx{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+article{
+  flex-basis: 67%;
+}
+aside{
+  flex-basis: 31%;
+}
+
+.social-links div{
+  flex-basis: 24%;
+}
+
+.posts,
+.recent-tag{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.recent-tag{
+  flex-wrap: wrap;
+}
+
+.social-links{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.res-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.book-a-table,
+.contact-details{
+  flex-basis: 49%;
+}
+
+.team-flex,
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.team-card{
+  flex-basis: 31%;
+}
+
+.team-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact{
+    align-items: center;
+}
