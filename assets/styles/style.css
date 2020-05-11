@@ -256,6 +256,7 @@ opacity: 0;}
 .btn:hover ,
 .btn:focus {
   background:var(--clr-dark);
+  border-color: var(--clr-dark);
   opacity: 1;
 }
 

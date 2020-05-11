@@ -79,9 +79,7 @@
         flex-basis: 49%;
     }
 
-    .blog-fx{
-        flex-direction: column;
-    }
+    
 
 }
 
@@ -97,6 +95,9 @@
     }
     p{
         font-size: 1rem;
+    }
+    .blog-fx{
+        flex-direction: column;
     }
 }
 
